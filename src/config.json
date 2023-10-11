@@ -62,6 +62,19 @@
     }
   },
   {
+    "id": "ns3-mac-gb",
+    "name": "Navigator 3 with GB Chinese support",
+    "os": "macos",
+    "emu": "bas",
+    "icon": "ns3.png",
+    "features": [],
+    "opts": {
+      "biosPath": "$IMAGE_PREFIX/bas-2/bios/",
+      "imageUrl": "MacOS75_with_GB.img",
+      "emuBrowserId": "br-ns3"
+    }
+  },
+  {
     "id": "ie4-mac",
     "name": "IE 4",
     "os": "macos",
