@@ -62,15 +62,28 @@
     }
   },
   {
-    "id": "ns3-mac-gb",
-    "name": "Navigator 3 with GB Chinese support",
+    "id": "ns4-mac-zh",
+    "name": "Navigator 4 with Chinese support",
+    "os": "macos",
+    "emu": "bas",
+    "icon": "ns4.png",
+    "features": ["shockwave 3"],
+    "opts": {
+      "biosPath": "$IMAGE_PREFIX/bas-2/bios/",
+      "imageUrl": "hd-ns-zh.img",
+      "emuBrowserId": "br-ns4"
+    }
+  },
+  {
+    "id": "ns3-mac-zh",
+    "name": "Navigator 3 with Chinese support",
     "os": "macos",
     "emu": "bas",
     "icon": "ns3.png",
-    "features": [],
+    "features": ["shockwave 3", "java 1.0"],
     "opts": {
       "biosPath": "$IMAGE_PREFIX/bas-2/bios/",
-      "imageUrl": "MacOS75_with_GB.img",
+      "imageUrl": "hd-ns-zh.img",
       "emuBrowserId": "br-ns3"
     }
   },
@@ -84,6 +97,19 @@
     "opts": {
       "biosPath": "$IMAGE_PREFIX/bas-2/bios/",
       "imageUrl": "$IMAGE_PREFIX/bas-2/images/hd-ie-m.img$GZ",
+      "emuBrowserId": "br-ie4"
+    }
+  },
+  {
+    "id": "ie4-mac-zh",
+    "name": "IE 4 with Chinese support",
+    "os": "macos",
+    "emu": "bas",
+    "icon": "ie4-mac.png",
+    "features": ["shockwave 3", "java 1.0"],
+    "opts": {
+      "biosPath": "$IMAGE_PREFIX/bas-2/bios/",
+      "imageUrl": "hd-ie-m-zh.img",
       "emuBrowserId": "br-ie4"
     }
   },

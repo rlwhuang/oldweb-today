@@ -141,7 +141,7 @@ class OldWebToday extends LitElement
 
   firstUpdated() {
     if (!window.location.hash) {
-      window.location.hash = "#/19990125/http://www.huazhao.com/";
+      window.location.hash = "#/19970722/http://chinese.yahoo.com";
     }
 
     this.parseOpts();
