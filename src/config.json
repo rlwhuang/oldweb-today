@@ -88,6 +88,32 @@
     }
   },
   {
+    "id": "ns4-mac-jp",
+    "name": "Navigator 4 with Japanese support",
+    "os": "macos",
+    "emu": "bas",
+    "icon": "ns4.png",
+    "features": ["shockwave 3"],
+    "opts": {
+      "biosPath": "$IMAGE_PREFIX/bas-2/bios/",
+      "imageUrl": "hd-ns-jp.img",
+      "emuBrowserId": "br-ns4"
+    }
+  },
+  {
+    "id": "ns3-mac-jp",
+    "name": "Navigator 3 with Japanese support",
+    "os": "macos",
+    "emu": "bas",
+    "icon": "ns3.png",
+    "features": ["shockwave 3", "java 1.0"],
+    "opts": {
+      "biosPath": "$IMAGE_PREFIX/bas-2/bios/",
+      "imageUrl": "hd-ns-jp.img",
+      "emuBrowserId": "br-ns3"
+    }
+  },
+  {
     "id": "ie4-mac",
     "name": "IE 4",
     "os": "macos",
@@ -110,6 +136,19 @@
     "opts": {
       "biosPath": "$IMAGE_PREFIX/bas-2/bios/",
       "imageUrl": "hd-ie-m-zh.img",
+      "emuBrowserId": "br-ie4"
+    }
+  },
+  {
+    "id": "ie4-mac-jp",
+    "name": "IE 4 with Japanese support",
+    "os": "macos",
+    "emu": "bas",
+    "icon": "ie4-mac.png",
+    "features": ["shockwave 3", "java 1.0"],
+    "opts": {
+      "biosPath": "$IMAGE_PREFIX/bas-2/bios/",
+      "imageUrl": "hd-ie-m-jp.img",
       "emuBrowserId": "br-ie4"
     }
   },
