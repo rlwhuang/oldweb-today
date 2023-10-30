@@ -1,41 +1,5 @@
 [
   {
-    "id": "nm2-mac",
-    "name": "NCSA Mosaic 2",
-    "os": "macos",
-    "emu": "bas",
-    "icon": "mosaic.png",
-    "opts": {
-      "biosPath": "$IMAGE_PREFIX/bas-2/bios/",
-      "imageUrl": "$IMAGE_PREFIX/bas-2/images/hd-ie-m.img$GZ",
-      "emuBrowserId": "br-nm2"
-    }
-  },
-  {
-    "id": "nm3-mac",
-    "name": "NCSA Mosaic 3",
-    "os": "macos",
-    "emu": "bas",
-    "icon": "mosaic.png",
-    "opts": {
-      "biosPath": "$IMAGE_PREFIX/bas-2/bios/",
-      "imageUrl": "$IMAGE_PREFIX/bas-2/images/hd-ns.img$GZ",
-      "emuBrowserId": "br-nm3"
-    }
-  },
-  {
-    "id": "ml-mac",
-    "name": "MacLynx 2",
-    "os": "macos",
-    "emu": "bas",
-    "icon": "maclynx.png",
-    "opts": {
-      "biosPath": "$IMAGE_PREFIX/bas-2/bios/",
-      "imageUrl": "$IMAGE_PREFIX/bas-2/images/hd-ns.img$GZ",
-      "emuBrowserId": "br-ml2"
-    }
-  },
-  {
     "id": "ns3-mac",
     "name": "Navigator 3",
     "os": "macos",
@@ -164,26 +128,26 @@
     }
   },
   {
-    "id": "ie5-full-boot-zhs",
+    "id": "ie4-win-zhs",
     "name": "ZHS-PROOF-DEBUG",
     "os": "win98",
     "emu": "v86",
     "opts": {
       "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
-      "imageUrl": "/dist/win98fesc-mint-conf.img",
+      "imageUrl": "/dist/win98fesc-mint-conf-add-launcher-v8o.img",
       "imageSize": 419430400
     }
   },
   {
-    "id": "ie5-full-boot-zhs-state",
-    "name": "ZHS-PROOF-DEBUG-STATE",
+    "id": "ie4-win-zhs",
+    "name": "IE4-WIN-ZHS",
     "os": "win98",
     "emu": "v86",
     "opts": {
       "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
-      "imageUrl": "/dist/win98fesc-mint-conf.img",
+      "imageUrl": "/dist/win98fesc-mint-conf-add-launcher-v8o.img",
       "imageSize": 419430400,
-      "stateUrl": "/dist/savestate.bin",
+      "stateUrl": "/dist/win98fesc-mint-conf-add-launcher-v8o-ie4.bin",
       "clientMAC": [0, 34, 21, 16, 17, 18],
       "clientIP": [10, 0, 2, 100]
     }
@@ -211,6 +175,22 @@
       "imageUrl": "$IMAGE_PREFIX/v86-2/images/ie5-ns4.img",
       "imageSize": 419430400,
       "stateUrl": "$IMAGE_PREFIX/v86-2/state/ns4.bin$GZ",
+      "clientMAC": [0, 34, 21, 16, 17, 18],
+      "clientIP": [10, 0, 2, 100]
+    }
+  },
+  {
+    "id": "ns4-win-local",
+    "name": "Local Navigator 4",
+    "os": "win98",
+    "emu": "v86",
+    "icon": "ns4.png",
+    "features": ["flash 8", "java 1.1.5"],
+    "opts": {
+      "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
+      "imageUrl": "/dist/ie5-ns4-original.img",
+      "imageSize": 419430400,
+      "stateUrl": "/dist/ns4.bin",
       "clientMAC": [0, 34, 21, 16, 17, 18],
       "clientIP": [10, 0, 2, 100]
     }
