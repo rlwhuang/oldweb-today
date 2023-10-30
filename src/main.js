@@ -388,7 +388,7 @@ class OldWebToday extends LitElement
                   </div>
                   ` : ``}
 
-                ${this.isRunning && this.emuMap[this.launchID] && this.emuMap[this.launchID].hidden ? html`
+                ${this.isRunning && this.emuMap[this.launchID] ? html`
                 <button @click="${this.onDL}">Save State</button>` : ''}
               </div>
             </div>

@@ -161,8 +161,43 @@
       "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
       "imageUrl": "$IMAGE_PREFIX/v86-2/images/ie5-ns4.img",
       "imageSize": 419430400
-    },
-    "hidden": true
+    }
+  },
+  {
+    "id": "ie5-full-boot-zhs",
+    "name": "ZHS-PROOF-DEBUG",
+    "os": "win98",
+    "emu": "v86",
+    "opts": {
+      "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
+      "imageUrl": "/dist/win98fesc-mint-conf.img",
+      "imageSize": 419430400
+    }
+  },
+  {
+    "id": "ie5-full-boot-zhs-state",
+    "name": "ZHS-PROOF-DEBUG-STATE",
+    "os": "win98",
+    "emu": "v86",
+    "opts": {
+      "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
+      "imageUrl": "/dist/win98fesc-mint-conf.img",
+      "imageSize": 419430400,
+      "stateUrl": "/dist/savestate.bin",
+      "clientMAC": [0, 34, 21, 16, 17, 18],
+      "clientIP": [10, 0, 2, 100]
+    }
+  },
+  {
+    "id": "ie5-full-boot-local",
+    "name": "IE5 local full original",
+    "os": "win98",
+    "emu": "v86",
+    "opts": {
+      "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
+      "imageUrl": "/dist/ie5-ns4_original.img",
+      "imageSize": 419430400
+    }
   },
   {
     "id": "ns4-win",
