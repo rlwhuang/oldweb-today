@@ -117,6 +117,73 @@
     }
   },
   {
+    "id": "ie5-win-zht-fullboot",
+    "name": "IE5-NS4-WIN98SE-ZHT",
+    "os": "win98",
+    "emu": "v86",
+    "opts": {
+      "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
+      "imageUrl": "/dist/win98setc-drv-laun-files-v8o.img",
+      "imageSize": 419430400
+    }
+  },
+  {
+    "id": "ie5-win-zht-state",
+    "name": "IE5-WIN98SE-ZHT-STATE",
+    "os": "win98",
+    "emu": "v86",
+    "opts": {
+      "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
+      "imageUrl": "/dist/win98setc-drv-laun-files-v8o.img",
+      "imageSize": 419430400,
+      "stateUrl": "/dist/win98tc-ie5.bin",
+      "clientMAC": [0, 34, 21, 16, 17, 18],
+      "clientIP": [10, 0, 2, 100]
+    }
+  },
+  {
+    "id": "ns4-win-zht-state",
+    "name": "NS4-WIN98SE-ZHT-STATE",
+    "os": "win98",
+    "emu": "v86",
+    "opts": {
+      "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
+      "imageUrl": "/dist/win98setc-drv-laun-files-v8o.img",
+      "imageSize": 419430400,
+      "stateUrl": "/dist/win98tc-ns4.bin",
+      "clientMAC": [0, 34, 21, 16, 17, 18],
+      "clientIP": [10, 0, 2, 100]
+    }
+  },
+  {
+    "id": "ie5-win-zht-smallstate",
+    "name": "ie5-win-zht-smallstate",
+    "os": "win98",
+    "emu": "v86",
+    "opts": {
+      "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
+      "imageUrl": "/dist/win98setc-drv-laun-files-v8o.img",
+      "imageSize": 419430400,
+      "stateUrl": "/dist/ie5-win98setc-small.bin",
+      "clientMAC": [0, 34, 21, 16, 17, 18],
+      "clientIP": [10, 0, 2, 100]
+    }
+  },
+  {
+    "id": "ns4-win-zht-smallstate",
+    "name": "ns4-win-zht-smallstate",
+    "os": "win98",
+    "emu": "v86",
+    "opts": {
+      "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
+      "imageUrl": "/dist/win98setc-drv-laun-files-v8o.img",
+      "imageSize": 419430400,
+      "stateUrl": "/dist/ns4-win98setc-small.bin",
+      "clientMAC": [0, 34, 21, 16, 17, 18],
+      "clientIP": [10, 0, 2, 100]
+    }
+  },
+  {
     "id": "ie5-full-boot",
     "name": "(Slow Full Boot) IE5 + Netscape 4",
     "os": "win98",
@@ -128,7 +195,7 @@
     }
   },
   {
-    "id": "ie4-win-zhs",
+    "id": "ie4-win-zhs-fullboot",
     "name": "ZHS-PROOF-DEBUG",
     "os": "win98",
     "emu": "v86",
@@ -148,6 +215,20 @@
       "imageUrl": "/dist/win98fesc-mint-conf-add-launcher-v8o.img",
       "imageSize": 419430400,
       "stateUrl": "/dist/win98fesc-mint-conf-add-launcher-v8o-ie4.bin",
+      "clientMAC": [0, 34, 21, 16, 17, 18],
+      "clientIP": [10, 0, 2, 100]
+    }
+  },
+  {
+    "id": "ie4-win-zhs-smallstate",
+    "name": "IE4-WIN-ZHS-smallstate",
+    "os": "win98",
+    "emu": "v86",
+    "opts": {
+      "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
+      "imageUrl": "/dist/win98fesc-mint-conf-add-launcher-v8o.img",
+      "imageSize": 419430400,
+      "stateUrl": "/dist/ie4zhs.bin",
       "clientMAC": [0, 34, 21, 16, 17, 18],
       "clientIP": [10, 0, 2, 100]
     }
