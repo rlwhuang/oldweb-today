@@ -195,15 +195,102 @@
     }
   },
   {
-    "id": "ie4-win-zhs-fullboot",
-    "name": "ZHS-PROOF-DEBUG",
+    "id": "ko-fullboot",
+    "name": "KO-FULLBOOT",
     "os": "win98",
     "emu": "v86",
     "opts": {
       "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
-      "imageUrl": "/dist/win98fesc-mint-conf-add-launcher-v8o.img",
+      "imageUrl": "/dist/win98seko-localdriver-nsfx-v8o.img",
       "imageSize": 419430400
     }
+  },
+  {
+    "id": "ko-ie5-fullstate",
+    "name": "KO-IE5-fullstate",
+    "os": "win98",
+    "emu": "v86",
+    "opts": {
+      "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
+      "imageUrl": "/dist/win98seko-localdriver-nsfx-v8o.img",
+      "imageSize": 419430400,
+      "stateUrl": "/dist/ko-ie5-full.bin",
+      "clientMAC": [0, 34, 21, 16, 17, 18],
+      "clientIP": [10, 0, 2, 100]
+    },
+    "hidden": true
+  },
+  {
+    "id": "ko-ns4",
+    "name": "KO-NS4-fullstate",
+    "os": "win98",
+    "emu": "v86",
+    "opts": {
+      "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
+      "imageUrl": "/dist/win98seko-localdriver-nsfx-v8o.img",
+      "imageSize": 419430400,
+      "stateUrl": "/dist/ko-ns4-full.bin",
+      "clientMAC": [0, 34, 21, 16, 17, 18],
+      "clientIP": [10, 0, 2, 100]
+    }, 
+    "hidden": true
+  },
+  {
+    "id": "ko-fx1",
+    "name": "KO-FX1",
+    "os": "win98",
+    "emu": "v86",
+    "opts": {
+      "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
+      "imageUrl": "/dist/win98seko-localdriver-nsfx-v8o.img",
+      "imageSize": 419430400,
+      "stateUrl": "/dist/ko-fx1.bin",
+      "clientMAC": [0, 34, 21, 16, 17, 18],
+      "clientIP": [10, 0, 2, 100]
+    }
+  },
+  {
+    "id": "ko-ie5",
+    "name": "KO-IE5",
+    "os": "win98",
+    "emu": "v86",
+    "opts": {
+      "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
+      "imageUrl": "/dist/win98seko-localdriver-nsfx-v8o.img",
+      "imageSize": 419430400,
+      "stateUrl": "/dist/ko-ie5.bin",
+      "clientMAC": [0, 34, 21, 16, 17, 18],
+      "clientIP": [10, 0, 2, 100]
+    }
+  },
+  {
+    "id": "ko-ns4",
+    "name": "KO-NS4",
+    "os": "win98",
+    "emu": "v86",
+    "opts": {
+      "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
+      "imageUrl": "/dist/win98seko-localdriver-nsfx-v8o.img",
+      "imageSize": 419430400,
+      "stateUrl": "/dist/ko-ns4.bin",
+      "clientMAC": [0, 34, 21, 16, 17, 18],
+      "clientIP": [10, 0, 2, 100]
+    }
+  },
+  {
+    "id": "ko-fx1-fullstate",
+    "name": "KO-FX1-fullstate",
+    "os": "win98",
+    "emu": "v86",
+    "opts": {
+      "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
+      "imageUrl": "/dist/win98seko-localdriver-nsfx-v8o.img",
+      "imageSize": 419430400,
+      "stateUrl": "/dist/ko-fx1-full.bin",
+      "clientMAC": [0, 34, 21, 16, 17, 18],
+      "clientIP": [10, 0, 2, 100]
+    }, 
+    "hidden": true
   },
   {
     "id": "ie4-win-zhs",
