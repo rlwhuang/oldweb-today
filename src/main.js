@@ -141,7 +141,7 @@ class OldWebToday extends LitElement
 
   firstUpdated() {
     if (!window.location.hash) {
-      window.location.hash = "#/19970722/http://chinese.yahoo.com";
+      window.location.hash = "#/20010401/http://chinese.yahoo.com";
     }
 
     this.parseOpts();
@@ -291,6 +291,7 @@ class OldWebToday extends LitElement
     `}
 
     <span class="browser-label">${emu.name}</span>
+    <span class="browser-lang">${emu.lang}</span>
 
     ${emu.features ? html`
     <span class="browser-features">
@@ -307,8 +308,14 @@ class OldWebToday extends LitElement
         <div class="columns">
           <div class="column controls">
             <div>
+              <i class="full-width" style="text-align: center; display: block">(unofficial)</i>
               <h2 class="owt-title">OldWeb.Today</h2>
-              <i class="full-width" style="text-align: center; display: block">JS Browser Emulation <img src="./assets/new.gif"/></i>
+              <i class="full-width" style="text-align: center; display: block">with CJK support <img src="./assets/new.gif"/></i>
+              <i class="full-width" style="text-align: center; display: block">支持简体中文网页</i>
+              <i class="full-width" style="text-align: center; display: block">支援繁體中文網頁</i>
+              <i class="full-width" style="text-align: center; display: block">日本語ウェブページのサポート</i>
+              <i class="full-width" style="text-align: center; display: block">한국어 웹페이지 지원</i>
+
               <div class="form-group">
                 <label for="browser" class="form-label space-top">Browser / Emulator:</label>
 
@@ -388,8 +395,8 @@ class OldWebToday extends LitElement
                   </div>
                   ` : ``}
 
-                ${this.isRunning && this.emuMap[this.launchID] ? html`
-                <button @click="${this.onDL}">Save State</button>` : ''}
+                  ${this.isRunning && this.emuMap[this.launchID] && this.emuMap[this.launchID].hidden ? html`
+                 <button @click="${this.onDL}">Save State</button>` : ''}
               </div>
             </div>
             <div class="by-wr">
