@@ -1,458 +1,303 @@
 [
   {
-    "id": "ns3-mac",
+    "id": "ns3-mac-zh",
     "name": "Navigator 3",
     "os": "macos",
+    "lang": "中文简体/繁體 Chinese Simplified/Traditional",
     "emu": "bas",
     "icon": "ns3.png",
     "features": ["shockwave 3", "java 1.0"],
     "opts": {
       "biosPath": "$IMAGE_PREFIX/bas-2/bios/",
-      "imageUrl": "$IMAGE_PREFIX/bas-2/images/hd-ns.img$GZ",
+      "imageUrl": "$IMAGE_PREFIX/bas-2/hd-ns-zh.img",
       "emuBrowserId": "br-ns3"
     }
   },
   {
-    "id": "ns4-mac",
-    "name": "Navigator 4",
+    "id": "ns3-mac-ja",
+    "name": "Navigator 3",
     "os": "macos",
+    "lang": "日本語 Japanese",
     "emu": "bas",
-    "icon": "ns4.png",
-    "features": ["shockwave 3"],
+    "icon": "ns3.png",
+    "features": ["shockwave 3", "java 1.0"],
     "opts": {
       "biosPath": "$IMAGE_PREFIX/bas-2/bios/",
-      "imageUrl": "$IMAGE_PREFIX/bas-2/images/hd-ns.img$GZ",
-      "emuBrowserId": "br-ns4"
+      "imageUrl": "$IMAGE_PREFIX/bas-2/hd-ns-jp.img",
+      "emuBrowserId": "br-ns3"
     }
   },
   {
     "id": "ns4-mac-zh",
-    "name": "Navigator 4 with Chinese support",
+    "name": "Navigator 4",
     "os": "macos",
+    "lang": "中文简体/繁體 Chinese Simplified/Traditional",
     "emu": "bas",
     "icon": "ns4.png",
     "features": ["shockwave 3"],
     "opts": {
       "biosPath": "$IMAGE_PREFIX/bas-2/bios/",
-      "imageUrl": "hd-ns-zh.img",
+      "imageUrl": "$IMAGE_PREFIX/bas-2/hd-ns-zh.img",
       "emuBrowserId": "br-ns4"
     }
-  },
+  },  
   {
-    "id": "ns3-mac-zh",
-    "name": "Navigator 3 with Chinese support",
+    "id": "ns4-mac-ja",
+    "name": "Navigator 4",
     "os": "macos",
-    "emu": "bas",
-    "icon": "ns3.png",
-    "features": ["shockwave 3", "java 1.0"],
-    "opts": {
-      "biosPath": "$IMAGE_PREFIX/bas-2/bios/",
-      "imageUrl": "hd-ns-zh.img",
-      "emuBrowserId": "br-ns3"
-    }
-  },
-  {
-    "id": "ns4-mac-jp",
-    "name": "Navigator 4 with Japanese support",
-    "os": "macos",
+    "lang": "日本語 Japanese",
     "emu": "bas",
     "icon": "ns4.png",
     "features": ["shockwave 3"],
     "opts": {
       "biosPath": "$IMAGE_PREFIX/bas-2/bios/",
-      "imageUrl": "hd-ns-jp.img",
+      "imageUrl": "$IMAGE_PREFIX/bas-2/hd-ns-jp.img",
       "emuBrowserId": "br-ns4"
-    }
-  },
-  {
-    "id": "ns3-mac-jp",
-    "name": "Navigator 3 with Japanese support",
-    "os": "macos",
-    "emu": "bas",
-    "icon": "ns3.png",
-    "features": ["shockwave 3", "java 1.0"],
-    "opts": {
-      "biosPath": "$IMAGE_PREFIX/bas-2/bios/",
-      "imageUrl": "hd-ns-jp.img",
-      "emuBrowserId": "br-ns3"
-    }
-  },
-  {
-    "id": "ie4-mac",
-    "name": "IE 4",
-    "os": "macos",
-    "emu": "bas",
-    "icon": "ie4-mac.png",
-    "features": ["shockwave 3", "java 1.0"],
-    "opts": {
-      "biosPath": "$IMAGE_PREFIX/bas-2/bios/",
-      "imageUrl": "$IMAGE_PREFIX/bas-2/images/hd-ie-m.img$GZ",
-      "emuBrowserId": "br-ie4"
     }
   },
   {
     "id": "ie4-mac-zh",
-    "name": "IE 4 with Chinese support",
+    "name": "IE 4",
     "os": "macos",
+    "lang": "中文简体/繁體 Chinese Simplified/Traditional",
     "emu": "bas",
     "icon": "ie4-mac.png",
     "features": ["shockwave 3", "java 1.0"],
     "opts": {
       "biosPath": "$IMAGE_PREFIX/bas-2/bios/",
-      "imageUrl": "hd-ie-m-zh.img",
+      "imageUrl": "$IMAGE_PREFIX/bas-2/hd-ie-m-zh.img",
       "emuBrowserId": "br-ie4"
     }
   },
   {
-    "id": "ie4-mac-jp",
-    "name": "IE 4 with Japanese support",
+    "id": "ie4-mac-ja",
+    "name": "IE 4",
     "os": "macos",
+    "lang": "日本語 Japanese",
     "emu": "bas",
     "icon": "ie4-mac.png",
     "features": ["shockwave 3", "java 1.0"],
     "opts": {
       "biosPath": "$IMAGE_PREFIX/bas-2/bios/",
-      "imageUrl": "hd-ie-m-jp.img",
+      "imageUrl": "$IMAGE_PREFIX/bas-2/hd-ie-m-jp.img",
       "emuBrowserId": "br-ie4"
     }
   },
   {
-    "id": "ie5-win-zht-fullboot",
-    "name": "IE5-NS4-WIN98SE-ZHT",
+    "id": "ns4-win-zhs",
+    "name": "Navigator 4.5",
     "os": "win98",
-    "emu": "v86",
-    "opts": {
-      "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
-      "imageUrl": "/dist/win98setc-drv-laun-files-v8o.img",
-      "imageSize": 419430400
-    }
-  },
-  {
-    "id": "ie5-win-zht-state",
-    "name": "IE5-WIN98SE-ZHT-STATE",
-    "os": "win98",
-    "emu": "v86",
-    "opts": {
-      "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
-      "imageUrl": "/dist/win98setc-drv-laun-files-v8o.img",
-      "imageSize": 419430400,
-      "stateUrl": "/dist/win98tc-ie5.bin",
-      "clientMAC": [0, 34, 21, 16, 17, 18],
-      "clientIP": [10, 0, 2, 100]
-    }
-  },
-  {
-    "id": "ns4-win-zht-state",
-    "name": "NS4-WIN98SE-ZHT-STATE",
-    "os": "win98",
-    "emu": "v86",
-    "opts": {
-      "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
-      "imageUrl": "/dist/win98setc-drv-laun-files-v8o.img",
-      "imageSize": 419430400,
-      "stateUrl": "/dist/win98tc-ns4.bin",
-      "clientMAC": [0, 34, 21, 16, 17, 18],
-      "clientIP": [10, 0, 2, 100]
-    }
-  },
-  {
-    "id": "ie5-win-zht-smallstate",
-    "name": "ie5-win-zht-smallstate",
-    "os": "win98",
-    "emu": "v86",
-    "opts": {
-      "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
-      "imageUrl": "/dist/win98setc-drv-laun-files-v8o.img",
-      "imageSize": 419430400,
-      "stateUrl": "/dist/ie5-win98setc-small.bin",
-      "clientMAC": [0, 34, 21, 16, 17, 18],
-      "clientIP": [10, 0, 2, 100]
-    }
-  },
-  {
-    "id": "ns4-win-zht-smallstate",
-    "name": "ns4-win-zht-smallstate",
-    "os": "win98",
-    "emu": "v86",
-    "opts": {
-      "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
-      "imageUrl": "/dist/win98setc-drv-laun-files-v8o.img",
-      "imageSize": 419430400,
-      "stateUrl": "/dist/ns4-win98setc-small.bin",
-      "clientMAC": [0, 34, 21, 16, 17, 18],
-      "clientIP": [10, 0, 2, 100]
-    }
-  },
-  {
-    "id": "ie5-full-boot",
-    "name": "(Slow Full Boot) IE5 + Netscape 4",
-    "os": "win98",
-    "emu": "v86",
-    "opts": {
-      "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
-      "imageUrl": "$IMAGE_PREFIX/v86-2/images/ie5-ns4.img",
-      "imageSize": 419430400
-    }
-  },
-  {
-    "id": "ko-fullboot",
-    "name": "KO-FULLBOOT",
-    "os": "win98",
-    "emu": "v86",
-    "opts": {
-      "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
-      "imageUrl": "/dist/win98seko-localdriver-nsfx-v8o.img",
-      "imageSize": 419430400
-    }
-  },
-  {
-    "id": "ko-ie5-fullstate",
-    "name": "KO-IE5-fullstate",
-    "os": "win98",
-    "emu": "v86",
-    "opts": {
-      "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
-      "imageUrl": "/dist/win98seko-localdriver-nsfx-v8o.img",
-      "imageSize": 419430400,
-      "stateUrl": "/dist/ko-ie5-full.bin",
-      "clientMAC": [0, 34, 21, 16, 17, 18],
-      "clientIP": [10, 0, 2, 100]
-    },
-    "hidden": true
-  },
-  {
-    "id": "ko-ns4",
-    "name": "KO-NS4-fullstate",
-    "os": "win98",
-    "emu": "v86",
-    "opts": {
-      "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
-      "imageUrl": "/dist/win98seko-localdriver-nsfx-v8o.img",
-      "imageSize": 419430400,
-      "stateUrl": "/dist/ko-ns4-full.bin",
-      "clientMAC": [0, 34, 21, 16, 17, 18],
-      "clientIP": [10, 0, 2, 100]
-    }, 
-    "hidden": true
-  },
-  {
-    "id": "ko-fx1",
-    "name": "KO-FX1",
-    "os": "win98",
-    "emu": "v86",
-    "opts": {
-      "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
-      "imageUrl": "/dist/win98seko-localdriver-nsfx-v8o.img",
-      "imageSize": 419430400,
-      "stateUrl": "/dist/ko-fx1.bin",
-      "clientMAC": [0, 34, 21, 16, 17, 18],
-      "clientIP": [10, 0, 2, 100]
-    }
-  },
-  {
-    "id": "ko-ie5",
-    "name": "KO-IE5",
-    "os": "win98",
-    "emu": "v86",
-    "opts": {
-      "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
-      "imageUrl": "/dist/win98seko-localdriver-nsfx-v8o.img",
-      "imageSize": 419430400,
-      "stateUrl": "/dist/ko-ie5.bin",
-      "clientMAC": [0, 34, 21, 16, 17, 18],
-      "clientIP": [10, 0, 2, 100]
-    }
-  },
-  {
-    "id": "ko-ns4",
-    "name": "KO-NS4",
-    "os": "win98",
-    "emu": "v86",
-    "opts": {
-      "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
-      "imageUrl": "/dist/win98seko-localdriver-nsfx-v8o.img",
-      "imageSize": 419430400,
-      "stateUrl": "/dist/ko-ns4.bin",
-      "clientMAC": [0, 34, 21, 16, 17, 18],
-      "clientIP": [10, 0, 2, 100]
-    }
-  },
-  {
-    "id": "ko-fx1-fullstate",
-    "name": "KO-FX1-fullstate",
-    "os": "win98",
-    "emu": "v86",
-    "opts": {
-      "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
-      "imageUrl": "/dist/win98seko-localdriver-nsfx-v8o.img",
-      "imageSize": 419430400,
-      "stateUrl": "/dist/ko-fx1-full.bin",
-      "clientMAC": [0, 34, 21, 16, 17, 18],
-      "clientIP": [10, 0, 2, 100]
-    }, 
-    "hidden": true
-  },
-  {
-    "id": "ie4-win-zhs",
-    "name": "IE4-WIN-ZHS",
-    "os": "win98",
-    "emu": "v86",
-    "opts": {
-      "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
-      "imageUrl": "/dist/win98fesc-mint-conf-add-launcher-v8o.img",
-      "imageSize": 419430400,
-      "stateUrl": "/dist/win98fesc-mint-conf-add-launcher-v8o-ie4.bin",
-      "clientMAC": [0, 34, 21, 16, 17, 18],
-      "clientIP": [10, 0, 2, 100]
-    }
-  },
-  {
-    "id": "ie4-win-zhs-smallstate",
-    "name": "IE4-WIN-ZHS-smallstate",
-    "os": "win98",
-    "emu": "v86",
-    "opts": {
-      "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
-      "imageUrl": "/dist/win98fesc-mint-conf-add-launcher-v8o.img",
-      "imageSize": 419430400,
-      "stateUrl": "/dist/ie4zhs.bin",
-      "clientMAC": [0, 34, 21, 16, 17, 18],
-      "clientIP": [10, 0, 2, 100]
-    }
-  },
-  {
-    "id": "ie5-full-boot-local",
-    "name": "IE5 local full original",
-    "os": "win98",
-    "emu": "v86",
-    "opts": {
-      "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
-      "imageUrl": "/dist/ie5-ns4_original.img",
-      "imageSize": 419430400
-    }
-  },
-  {
-    "id": "ns4-win",
-    "name": "Navigator 4",
-    "os": "win98",
+    "lang": "中文简体 Chinese Simplified",
     "emu": "v86",
     "icon": "ns4.png",
-    "features": ["flash 8", "java 1.1.5"],
+    "features": ["shockwave 8", "flash 6"],
     "opts": {
       "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
-      "imageUrl": "$IMAGE_PREFIX/v86-2/images/ie5-ns4.img",
+      "imageUrl": "$IMAGE_PREFIX/zhs/W98SECN-IE5-NS4-FP6-SW8-SND.img",
       "imageSize": 419430400,
-      "stateUrl": "$IMAGE_PREFIX/v86-2/state/ns4.bin$GZ",
+      "stateUrl": "$IMAGE_PREFIX/zhs/zhs-ns4-lite.bin",
       "clientMAC": [0, 34, 21, 16, 17, 18],
       "clientIP": [10, 0, 2, 100]
     }
   },
   {
-    "id": "ns4-win-local",
-    "name": "Local Navigator 4",
+    "id": "ns4-win-zht",
+    "name": "Navigator 4.5",
     "os": "win98",
+    "lang": "中文繁體 Chinese Traditional",
     "emu": "v86",
     "icon": "ns4.png",
-    "features": ["flash 8", "java 1.1.5"],
+    "features": ["shockwave 8", "flash 6"],
     "opts": {
       "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
-      "imageUrl": "/dist/ie5-ns4-original.img",
+      "imageUrl": "$IMAGE_PREFIX/zht/W98SETW-IE5-NS4-OP5-SW8-FP6-SND.img",
       "imageSize": 419430400,
-      "stateUrl": "/dist/ns4.bin",
+      "stateUrl": "$IMAGE_PREFIX/zht/zht-ns4-lite.bin",
       "clientMAC": [0, 34, 21, 16, 17, 18],
       "clientIP": [10, 0, 2, 100]
     }
   },
   {
-    "id": "ie6-full-boot",
-    "name": "(Slow Full Boot) IE6",
+    "id": "ns4-win-ko",
+    "name": "Navigator 4.5",
     "os": "win98",
+    "lang": "한국어 Korean",
     "emu": "v86",
+    "icon": "ns4.png",
+    "features": ["shockwave 10", "flash 9"],
     "opts": {
       "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
-      "imageUrl": "$IMAGE_PREFIX/v86-2/images/ie6.img",
-      "imageSize": 419430400
-    },
-    "hidden": true
+      "imageUrl": "$IMAGE_PREFIX/ko/W98SEKO-IE5-NS4-FX1-OP8-SW10-FP9-SND.img",
+      "imageSize": 419430400,
+      "stateUrl": "$IMAGE_PREFIX/ko/ko-ns4-lite.bin",
+      "clientMAC": [0, 34, 21, 16, 17, 18],
+      "clientIP": [10, 0, 2, 100]
+    }
   },
   {
-    "id": "ie5",
-    "name": "IE 5",
+    "id": "ie5-win-zhs",
+    "name": "IE5",
     "os": "win98",
+    "lang": "中文简体 Chinese Simplified",
     "emu": "v86",
     "icon": "ie5.png",
-    "features": ["flash 9", "java 5.0"],
+    "features": ["shockwave 8", "flash 6"],
     "opts": {
       "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
-      "imageUrl": "$IMAGE_PREFIX/v86-2/images/ie5-ns4.img",
+      "imageUrl": "$IMAGE_PREFIX/zhs/W98SECN-IE5-NS4-FP6-SW8-SND.img",
       "imageSize": 419430400,
-      "stateUrl": "$IMAGE_PREFIX/v86-2/state/ie5.bin$GZ",
+      "stateUrl": "$IMAGE_PREFIX/zhs/zhs-ie5-lite.bin",
       "clientMAC": [0, 34, 21, 16, 17, 18],
       "clientIP": [10, 0, 2, 100]
     }
   },
   {
-    "id": "ie6",
-    "name": "IE 6",
+    "id": "ie5-win-zht",
+    "name": "IE5",
     "os": "win98",
+    "lang": "中文繁體 Chinese Traditional",
     "emu": "v86",
-    "icon": "ie6.png",
-    "features": ["flash 9", "java 5.0"],
+    "icon": "ie5.png",
+    "features": ["shockwave 8", "flash 6"],
     "opts": {
       "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
-      "imageUrl": "$IMAGE_PREFIX/v86-2/images/ie6.img",
+      "imageUrl": "$IMAGE_PREFIX/zht/W98SETW-IE5-NS4-OP5-SW8-FP6-SND.img",
       "imageSize": 419430400,
-      "stateUrl": "$IMAGE_PREFIX/v86-2/state/ie6.bin$GZ",
+      "stateUrl": "$IMAGE_PREFIX/zht/zht-ie5-lite.bin",
       "clientMAC": [0, 34, 21, 16, 17, 18],
       "clientIP": [10, 0, 2, 100]
     }
   },
   {
-    "id": "tc-full-boot",
-    "name": "(Slow Full Boot) TinyCore Image",
-    "os": "linux",
+    "id": "ie5-win-ko",
+    "name": "IE5",
+    "os": "win98",
+    "lang": "한국어 Korean",
     "emu": "v86",
+    "icon": "ie5.png",
+    "features": ["shockwave 10", "flash 9"],
     "opts": {
       "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
-      "imageUrl": "$IMAGE_PREFIX/v86-2/images/tclinux.img",
-      "imageSize": 209715200,
-      "acpi": true
-    },
-    "hidden": true
-  },
-  {
-    "id": "ff10",
-    "name": "Firefox 10",
-    "os": "linux",
-    "emu": "v86",
-    "icon": "firefox.png",
-    "features": ["flash 32"],
-    "opts": {
-      "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
-      "imageUrl": "$IMAGE_PREFIX/v86-2/images/tclinux.img",
-      "imageSize": 209715200,
-      "stateUrl": "$IMAGE_PREFIX/v86-2/state/ff10.bin$GZ",
+      "imageUrl": "$IMAGE_PREFIX/ko/W98SEKO-IE5-NS4-FX1-OP8-SW10-FP9-SND.img",
+      "imageSize": 419430400,
+      "stateUrl": "$IMAGE_PREFIX/ko/ko-ie5-lite.bin",
       "clientMAC": [0, 34, 21, 16, 17, 18],
-      "clientIP": [10, 0, 2, 100],
-      "acpi": true
+      "clientIP": [10, 0, 2, 100]
     }
   },
   {
-    "id": "op12",
-    "name": "Opera 12",
-    "os": "linux",
+    "id": "op5-win-zht",
+    "name": "Opera 5",
+    "os": "win98",
+    "lang": "中文繁體 Chinese Traditional",
     "emu": "v86",
     "icon": "opera.png",
-    "features": ["flash 32"],
+    "features": ["shockwave 8", "flash 6"],
     "opts": {
       "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
-      "imageUrl": "$IMAGE_PREFIX/v86-2/images/tclinux.img",
-      "imageSize": 209715200,
-      "stateUrl": "$IMAGE_PREFIX/v86-2/state/op12.bin$GZ",
+      "imageUrl": "$IMAGE_PREFIX/zht/W98SETW-IE5-NS4-OP5-SW8-FP6-SND.img",
+      "imageSize": 419430400,
+      "stateUrl": "$IMAGE_PREFIX/zht/zht-op5-lite.bin",
       "clientMAC": [0, 34, 21, 16, 17, 18],
-      "clientIP": [10, 0, 2, 100],
-      "acpi": true
+      "clientIP": [10, 0, 2, 100]
     }
+  },
+  {
+    "id": "ie6-win-zht",
+    "name": "IE6",
+    "os": "win98",
+    "lang": "中文繁體 Chinese Traditional",
+    "emu": "v86",
+    "icon": "ie6.png",
+    "features": ["shockwave 10", "flash 9"],
+    "opts": {
+      "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
+      "imageUrl": "$IMAGE_PREFIX/zht/W98SETW-IE6-FX1-OP8-SW10-FP8-SND.img",
+      "imageSize": 419430400,
+      "stateUrl": "$IMAGE_PREFIX/zht/zht2-ie6-lite.bin",
+      "clientMAC": [0, 34, 21, 16, 17, 18],
+      "clientIP": [10, 0, 2, 100]
+    }
+  },
+  {
+    "id": "fx1-win-zht",
+    "name": "Firefox 1.0",
+    "os": "win98",
+    "lang": "中文繁體 Chinese Traditional",
+    "emu": "v86",
+    "icon": "firefox.png",
+    "features": ["shockwave 10", "flash 9"],
+    "opts": {
+      "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
+      "imageUrl": "$IMAGE_PREFIX/zht/W98SETW-IE6-FX1-OP8-SW10-FP8-SND.img",
+      "imageSize": 419430400,
+      "stateUrl": "$IMAGE_PREFIX/zht/zht2-fx1-lite.bin",
+      "clientMAC": [0, 34, 21, 16, 17, 18],
+      "clientIP": [10, 0, 2, 100]
+    }
+  },
+  {
+    "id": "fx1-win-ko",
+    "name": "Firefox 1.0",
+    "os": "win98",
+    "lang": "한국어 Korean",
+    "emu": "v86",
+    "icon": "firefox.png",
+    "features": ["shockwave 10", "flash 9"],
+    "opts": {
+      "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
+      "imageUrl": "$IMAGE_PREFIX/ko/W98SEKO-IE5-NS4-FX1-OP8-SW10-FP9-SND.img",
+      "imageSize": 419430400,
+      "stateUrl": "$IMAGE_PREFIX/ko/zht2-ko-lite.bin",
+      "clientMAC": [0, 34, 21, 16, 17, 18],
+      "clientIP": [10, 0, 2, 100]
+    }
+  },
+  {
+    "id": "op8-win-zht",
+    "name": "Opera 8.5",
+    "os": "win98",
+    "lang": "中文繁體 Chinese Traditional",
+    "emu": "v86",
+    "icon": "opera.png",
+    "features": ["shockwave 10", "flash 9"],
+    "opts": {
+      "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
+      "imageUrl": "$IMAGE_PREFIX/zht/W98SETW-IE6-FX1-OP8-SW10-FP8-SND.img",
+      "imageSize": 419430400,
+      "stateUrl": "$IMAGE_PREFIX/zht/zht2-op8-lite.bin",
+      "clientMAC": [0, 34, 21, 16, 17, 18],
+      "clientIP": [10, 0, 2, 100]
+    }
+  },
+  {
+    "id": "op8-win-ko",
+    "name": "Opera 8.5",
+    "os": "win98",
+    "lang": "한국어 Korean",
+    "emu": "v86",
+    "icon": "opera.png",
+    "features": ["shockwave 10", "flash 9"],
+    "opts": {
+      "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
+      "imageUrl": "$IMAGE_PREFIX/ko/W98SEKO-IE5-NS4-FX1-OP8-SW10-FP9-SND.img",
+      "imageSize": 419430400,
+      "stateUrl": "$IMAGE_PREFIX/ko/ko-op8-lite.bin",
+      "clientMAC": [0, 34, 21, 16, 17, 18],
+      "clientIP": [10, 0, 2, 100]
+    }
+  },
+  {
+    "id": "tw-fullboot",
+    "name": "tw-FULLBOOT",
+    "os": "win98",
+    "emu": "v86",
+    "opts": {
+      "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
+      "imageUrl": "/dist/W98SETW-IE5-NS4-OP5-SW8-FP6-SND.img",
+      "imageSize": 419430400
+    },
+    "hidden": true
   },
   {
     "id": "ruffle",

@@ -12,10 +12,10 @@ const ARCHIVE_PREFIX = "https://web.archive.org/web/";
 
 const defaultOpts = {
   // base path for CDN
-  cdnPrefix: "https://owt.sfo3.cdn.digitaloceanspaces.com",
+  cdnPrefix: "https://cjk-browser-depot.sfo2.digitaloceanspaces.com",
 
   // base path for images
-  imagePrefix: "https://owt.sfo3.cdn.digitaloceanspaces.com/images",
+  imagePrefix: "https://cjk-browser-depot.sfo2.digitaloceanspaces.com",
 
   // path to cors proxy
   corsPrefix: "https://wabac-cors-proxy.webrecorder.workers.dev/proxy/",
