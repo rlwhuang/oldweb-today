@@ -18,7 +18,7 @@ const defaultOpts = {
   imagePrefix: "https://cjk-browser-depot.sfo2.digitaloceanspaces.com",
 
   // path to cors proxy
-  corsPrefix: "https://wabac-cors-proxy.webrecorder.workers.dev/proxy/",
+  corsPrefix: "https://wabac-cors-proxy.palermo.workers.dev/proxy/",
   //corsPrefix: "/proxy/",
 
   // set to ".gz" if gzipped state and images are being used, otherwise just use empty string
