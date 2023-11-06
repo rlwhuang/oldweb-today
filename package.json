@@ -15,6 +15,9 @@
     "spectre.css": "^0.5.9",
     "web-streams-polyfill": "^3.0.1"
   },
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "build": "webpack --mode production",
     "build-dev": "webpack --mode development",
