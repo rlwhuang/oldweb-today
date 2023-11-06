@@ -155,9 +155,9 @@ a:visited {
     /* max-width: 100%; */
   }
 
-  .curr-browser {
-    /* display: inline-block; */
-  }
+  /* .curr-browser {
+    display: inline-block; 
+  } */
 }
 
 .logo {

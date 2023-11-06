@@ -226,7 +226,10 @@ class OldWebToday extends LitElement
   renderEmulator() {
     if (!this.launchID) {
       return html`
-      <div class="err">Please <b>select a browser</b> from the list to start! Many browsers support Flash or Java emulation.</div>`;
+      <div class="err">💡 Please <b>select a browser</b> from the list to start! Many browsers support Flash or Java emulation.</div>
+      <div class="err">⌛ For Windows-based emulator images, please allow up to 3 minutes for the browser to launch.  <br > Do not attempt to launch the browser manually from Windows desktop. </div>
+      <div class="err">🔊 Sound support is unstable in Windows-based emulator images. <br > Opening this page in a new Incognito/Private window increases your odds of getting working sound. </div>
+      <div class="err">❗ If IE throws a connection error upon first starting, try clicking the "🏠 Home" button on the toolbar. </div>`;
     }
 
     if (!this.emuOptions.length) {
@@ -403,7 +406,10 @@ class OldWebToday extends LitElement
               <p>
                 <a href="https://github.com/oldweb-today/oldweb-today" target="_blank">How it Works / View Source</a>
               </p>
-              <span>A project by:</span>
+              <p>
+              CJK browser images built by<a href="https://lewei.me" target="_blank"> Richard Lewei Huang</a>
+              </p>
+              <span>Original project by:</span>
               <a href="https://webrecorder.net/" target="_blank">
                 <img class="logo" src="assets/wrLogo.png"/>
               </a>
