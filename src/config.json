@@ -306,6 +306,7 @@
     "emu": "native",
     "icon": "ruffle.png",
     "features": ["flash"],
-    "opts": {"injectScripts": ["dist/ruffle.js"]}
+    "opts": {"injectScripts": ["dist/ruffle.js"]},
+    "hidden": true
   }
 ]
