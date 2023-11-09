@@ -118,6 +118,23 @@
     }
   },
   {
+    "id": "ns4-win-ja",
+    "name": "Navigator 4.5",
+    "os": "win98",
+    "lang": "日本語 Japanese",
+    "emu": "v86",
+    "icon": "ns4.png",
+    "features": ["shockwave 8", "flash 6"],
+    "opts": {
+      "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
+      "imageUrl": "$IMAGE_PREFIX/ja/W98FEJA-IE5-NS4-SW8-FP6-SND.img",
+      "imageSize": 419430400,
+      "stateUrl": "$IMAGE_PREFIX/ja/ja-ns4-lite.bin",
+      "clientMAC": [0, 34, 21, 16, 17, 18],
+      "clientIP": [10, 0, 2, 100]
+    }
+  },
+  {
     "id": "ns4-win-ko",
     "name": "Navigator 4.5",
     "os": "win98",
@@ -136,7 +153,7 @@
   },
   {
     "id": "ie5-win-zhs",
-    "name": "IE5",
+    "name": "IE 5",
     "os": "win98",
     "lang": "中文简体 Chinese Simplified",
     "emu": "v86",
@@ -153,7 +170,7 @@
   },
   {
     "id": "ie5-win-zht",
-    "name": "IE5",
+    "name": "IE 5",
     "os": "win98",
     "lang": "中文繁體 Chinese Traditional",
     "emu": "v86",
@@ -169,8 +186,25 @@
     }
   },
   {
+    "id": "ie5-win-ja",
+    "name": "IE 5",
+    "os": "win98",
+    "lang": "日本語 Japanese",
+    "emu": "v86",
+    "icon": "ie5.png",
+    "features": ["shockwave 8", "flash 6"],
+    "opts": {
+      "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
+      "imageUrl": "$IMAGE_PREFIX/ja/W98FEJA-IE5-NS4-SW8-FP6-SND.img",
+      "imageSize": 419430400,
+      "stateUrl": "$IMAGE_PREFIX/ja/ja-ie5-lite.bin",
+      "clientMAC": [0, 34, 21, 16, 17, 18],
+      "clientIP": [10, 0, 2, 100]
+    }
+  },
+  {
     "id": "ie5-win-ko",
-    "name": "IE5",
+    "name": "IE 5",
     "os": "win98",
     "lang": "한국어 Korean",
     "emu": "v86",
@@ -204,7 +238,7 @@
   },
   {
     "id": "ie6-win-zht",
-    "name": "IE6",
+    "name": "IE 6",
     "os": "win98",
     "lang": "中文繁體 Chinese Traditional",
     "emu": "v86",
@@ -288,13 +322,13 @@
     }
   },
   {
-    "id": "tw-fullboot",
-    "name": "tw-FULLBOOT",
+    "id": "ja-fullboot",
+    "name": "ja-FULLBOOT",
     "os": "win98",
     "emu": "v86",
     "opts": {
       "biosPath": "$IMAGE_PREFIX/v86-2/bios/",
-      "imageUrl": "/dist/W98SETW-IE5-NS4-OP5-SW8-FP6-SND.img",
+      "imageUrl": "/dist/win98feja-ie5-ns4-sw8-fp6-v8o.img",
       "imageSize": 419430400
     },
     "hidden": true
